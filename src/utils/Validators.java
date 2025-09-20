@@ -7,6 +7,11 @@ public final class Validators {
 
     private Validators() {}
 
+    public static void requirePositiveAmount(double amount, String fieldName) {
+        if (amount <= 0) {
+            throw new ValidationException(fieldName + " doit etre strictement positif");
+        }
+    }
 
     public static void requireValidCode(String code) {
         if (code == null || !code.matches("^CPT-\\d{5}$")) {
