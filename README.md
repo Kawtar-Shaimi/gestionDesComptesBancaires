@@ -77,7 +77,7 @@ Avant de lancer l’application, assurez-vous d’avoir :
    java -cp bin ui.App
    ```
 
-4. Générer le fichier **.jar** (optionnel) :
+4. Générer le fichier **.jar** :
 
    ```bash
    jar cfe gestionDesComptesBancaires.jar App -C bin .
@@ -87,7 +87,7 @@ Avant de lancer l’application, assurez-vous d’avoir :
 
 ## 📸 Captures d’écran
 
-*(Ajouter vos captures ici)*
+image.png
 
 ---
 
